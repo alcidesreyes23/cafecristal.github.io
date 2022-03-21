@@ -1,22 +1,29 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-	<link 
-	rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script src="https://kit.fontawesome.com/bba4017977.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
 	<title>Productos</title>
-
+	<style>
+		body {
+			overflow-x: hidden;
+		}
+	</style>
 </head>
-<body >
+
+<body>
 
 	<div id="header" class="text-black"></div>
 
-	<div class="relative z-20 flex justify-center items-center flex-wrap h-screen overflow-hidden">
+	<!--<div class="relative z-20 flex justify-center items-center flex-wrap h-full overflow-hidden mb-8">
 
 		<div class="relative z-20 w-full flex justify-around max-w-6xl">
 			
@@ -34,7 +41,7 @@
 			
 			<div class="w-full md:w-64 md:mt-16">
 				<div class="relative mb-10">
-					<img src="https://www.tododisca.com/wp-content/uploads/2021/05/cafe.jpg" class="w-64 h-64 object-cover animate__rubberBand animate__animated animate__fadeInLeft-2 animate__delay-2s">
+					<img src="https://www.tododisca.com/wp-content/uploads/2021/05/cafe.jpg" class="w-64 h-64 object-cover animate__rubberBand -2 animate__delay-2s">
 
 					<div class="absolute bottom-0 left-0 w-full flex justify-center items-start">
 						<div class="w-1 h-16 bg-gray-900 -mb-6"></div>
@@ -67,17 +74,200 @@
 
 				<h3 class="text-xs uppercase tracking-tighter text-center font-sans">Además de combatir enfermedades crónicas y degenerativas, el café ayuda a cuidar la salud del hígado previniendo y retardando el desarrollo de enfermedades como la cirrosis y el hígado graso.</h3>
 			</div>
+		</div>
+	</div>
 
-			
+	<div class="bg-gray-100 ">
+		<div class=" p-8 py-24 flex flex-col md:flex-row justify-around items-center gap-8">
+			<div class="flex-1 w-full">
+				<img id="imgL" src="https://images.unsplash.com/photo-1524010349062-860def6649c3?w=800"
+					class="w-full h-64 object-cover " />
+			</div>
+			<div class="flex-1">
+				<h2 class="pronameR font-display-italic font-extrabold text-5xl md:text-6xl italic leading-none mb-12">Enlighten.
+				</h2>
+				
+				<ol class="list-decimal leading-loose max-w-xl btt">
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>
 
-			
+	<div style="background-color: #6D9886">
+		<div class=" p-8 py-24 flex flex-col md:flex-row-reverse justify-around items-center gap-8">
+			<div class="flex-1 w-full">
+				<img id="imgR" src="https://images.unsplash.com/photo-1524010349062-860def6649c3?w=800"
+					class="w-full h-64 object-cover " />
+			</div>
+			<div class="flex-1">
+				<h2 class="proname font-display-italic font-extrabold text-5xl md:text-6xl italic leading-none mb-12">Enlighten.
+				</h2>
+				
+				<ol class="list-decimal leading-loose max-w-xl btt">
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-gray-100 ">
+		<div class=" p-8 py-24 flex flex-col md:flex-row justify-around items-center gap-8">
+			<div class="flex-1 w-full">
+				<img id="imgL" src="https://images.unsplash.com/photo-1524010349062-860def6649c3?w=800"
+					class="w-full h-64 object-cover " />
+			</div>
+			<div class="flex-1">
+				<h2 class="pronameR font-display-italic font-extrabold text-5xl md:text-6xl italic leading-none mb-12">Enlighten.
+				</h2>
+				
+				<ol class="list-decimal leading-loose max-w-xl btt">
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #6D9886">
+		<div class=" p-8 py-24 flex flex-col md:flex-row-reverse justify-around items-center gap-8">
+			<div class="flex-1 w-full">
+				<img id="imgR" src="https://images.unsplash.com/photo-1524010349062-860def6649c3?w=800"
+					class="w-full h-64 object-cover " />
+			</div>
+			<div class="flex-1">
+				<h2 class="proname font-display-italic font-extrabold text-5xl md:text-6xl italic leading-none mb-12">Enlighten.
+				</h2>
+				
+				<ol class="list-decimal leading-loose max-w-xl btt">
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+					<li>
+						<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>-->
+
+
+	<div class="max-w-5xl mx-auto pt-20 p-8 flex justify-end">
+		<h3 class="font-display-italic font-extrabold text-5xl md:text-6xl italic leading-none mb-12 max-w-xl pronameR">
+			Productos estrella
+		</h3>
+	</div>
+
+
+	<div class="container mx-auto flex flex-wrap pb-20">
+
+		<div class="w-full md:w-1/2 lg:w-1/4 px-6 mb-12">
+			<a href="#">
+				<img id="pro2" src="./imagenes/cafe_normal.png"
+					class="w-full h-64 object-cover mb-6 imgP" />
+			</a>
+			<h3 class="text-2xl uppercase font-display font-extrabold tracking-widest mb-2 proname">Café</h3>
+			<h6 class="tracking-widest mb-3">Beneficios</h6>
+			<ol class="list-decimal text-xs text-gray-900 tracking-widest text-center">
+				<li>
+					<p class="mb-4">ACTIVA LA MENTE</p>
+				</li>
+				<li>
+					<p class="mb-4">CONTRIBUYE A LA PÉRDIDA DE PESO</p>
+				</li>
+				<li>
+					<p class="mb-4">CAFÉ CONTRA EL DOLOR DE CABEZA ESPORÁDICO</p>
+				</li>
+			</ol>
 		</div>
 
-		<div class="z-10 w-1/2 h-full absolute top-0 right-0 -mr-20"></div>
+		<div class="w-full md:w-1/2 lg:w-1/4 px-6 mb-12">
+			<a href="#">
+				<img src="./imagenes/cafe-leche.png"
+					class="w-full h-64 object-cover mb-6 imgP" />
+			</a>
+			<h3 class="text-2xl uppercase font-display font-extrabold tracking-widest mb-2 proname">Café con leche</h3>
+			<h6 class="tracking-widest mb-3">Beneficios</h6>
+			<ol class="list-decimal text-xs text-gray-900 tracking-widest text-center uppercase">
+				<li>
+					<p class="mb-4">Ayuda a conciliar el sueño</p>
+				</li>
+				<li>
+					<p class="mb-4">reduce el riesgo de osteoporosis</p>
+				</li>
+				<li>
+					<p class="mb-4">Excelente si sufres acidez y quieres disfrutar de un buen café</p>
+				</li>
+			</ol>
+		</div>
 
-		<div class="z-10 w-1 h-64 bg-gray-100 absolute bottom-0 right-0 mr-5"></div>
+		<div class="w-full md:w-1/2 lg:w-1/4 px-6 mb-12">
+			<a href="#">
+				<img src="./imagenes/frappuccino.png"
+					class="w-full h-64 object-cover mb-6 imgP" />
+			</a>
+			<h3 class="text-2xl uppercase font-display font-extrabold tracking-widest mb-2 proname">Frapuccino</h3>
+			<h6 class="tracking-widest mb-3">Beneficios</h6>
+			<ol class="list-decimal text-xs text-gray-900 tracking-widest text-center uppercase">
+				<li>
+					<p class="mb-4">Mejora la inmunidad digestiva</p>
+				</li>
+				<li>
+					<p class="mb-4">Prologa tu vida al prevenir enfermedades por estres</p>
+				</li>
+				<li>
+					<p class="mb-4">Mejora la circulación</p>
+				</li>
+			</ol>
+		</div>
 
-	</div>	
+		<div class="w-full md:w-1/2 lg:w-1/4 px-6 mb-12">
+			<a href="#">
+				<img src="./imagenes/sandwich2.png"
+					class="w-full h-64 object-cover mb-6 imgP" />
+			</a>
+			<h3 class="text-2xl uppercase font-display font-extrabold tracking-widest mb-2 proname">Sandwich</h3>
+			<h6 class="tracking-widest mb-3">Beneficios</h6>
+			<ol class="list-decimal text-xs text-gray-900 tracking-widest text-center uppercase">
+				<li>
+					<p class="mb-4">Rico en proteínas</p>
+				</li>
+				<li>
+					<p class="mb-4">Un desayuno simple, barato, nutritivo y muy sabroso</p>
+				</li>
+				<li>
+					<p class="mb-4">Eros in cursus turpis massa tincidunt</p>
+				</li>
+			</ol>
+		</div>
+
+	</div>
 
 	<div id="foot"></div>
 
@@ -86,6 +276,22 @@
 	<script>
 		$("#header").load("components/nav.html");
 		$("#foot").load("components/footer.html");
+		window.sr = ScrollReveal({
+			reset: true,
+			distance: '60px',
+			duration: 2500,
+			delay: 400
+		});
+
+		//target elements, and specify options to create reveal animations
+		sr.reveal('#imgL, .proname', { delay: 500, origin: 'left' });
+		sr.reveal('.pronameR', { delay: 500, origin: 'rigth' });
+		sr.reveal('#imgR', { delay: 500, origin: 'rigth' , interval: 200  });
+		sr.reveal('.', { delay: 600, origin: 'bottom' });
+		sr.reveal('.imgP', { delay: 500, origin: 'top' , interval: 200  });
+		sr.reveal('.list-decimal li', { delay: 500, origin: 'left', interval: 200 });
+		sr.reveal('.btt li', { delay: 500, origin: 'bottom', interval: 200 });
 	</script>
 </body>
+
 </html>
